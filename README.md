@@ -16,10 +16,10 @@ _____
 
 ## Milestones
 
-[ ] Project design and specifications
-[ ] Developing basic greeting functions and call/response functionality
-[ ] Installing on personal server to create a test bed
-[ ] Basic greeting functionalities
+[ ] Project design and specifications/
+[ ] Developing basic greeting functions and call/response functionality/
+[ ] Installing on personal server to create a test bed/
+[ ] Basic greeting functionalities/
 _____
 
 

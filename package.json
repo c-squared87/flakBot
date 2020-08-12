@@ -1,0 +1,23 @@
+{
+  "name": "flakBot",
+  "version": "1.0.0",
+  "description": "A custom bot for Discord with discord.js ____",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-squared87/flakBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-squared87/flakBot/issues"
+  },
+  "homepage": "https://github.com/c-squared87/flakBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
