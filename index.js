@@ -1,11 +1,22 @@
+require("dotenv").config()
+
 const Discord = require("discord.js")
 const client = new Discord.Client()
+
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`)
 })
+
 client.on("message", msg => {
-    if (msg.content === "ping") {
+    if (msg.content.toLowerCase() === "ping") {
         msg.reply("Pong!")
     }
 })
-client.login("NzQzMTAzNzI0OTUxNjk5NDU5.XzPzRg.B74FZUDVNnGBpTjNvLij8ip4Y0E")
+
+client.on("guildMemberAdd", member => {
+    member.send(
+        'Welcome to my test server, I am not sure how you found this but hello!'
+    )
+})
+
+client.login(process.env.BOT_TOKEN)
