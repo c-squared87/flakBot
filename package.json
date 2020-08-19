@@ -4,7 +4,8 @@
   "description": "A custom bot for Discord with discord.js ____",
   "main": "index.js",
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "npm": "6.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
